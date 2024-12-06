@@ -1,0 +1,6 @@
+express
+body-parser
+ejs
+tailwindcss
+nodemon
+fs-extra
