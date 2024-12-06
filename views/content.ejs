@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="w-full min-h-screen bg-zinc-900 p-10  text-white">
+            <h1 class="text-2xl pb-5">
+                <%= fName.split('_').join(' ').split('.')[0] %>
+            </h1>
+            <div class="content  tracking-tighter ">
+                <p>
+                    <%=data %>
+                </p>
+            </div>
+        <a class="text-blue-500 mt-5" href="/">Back to home</a>
+    </div>
+    <script src="/javascripts/scripts.js"></script>
+
+
+</body>
+
+</html>

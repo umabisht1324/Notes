@@ -1,0 +1,6 @@
+Destination: Hilltop Resort
+Departure: Friday, 6 PM
+Activities:
+Saturday morning hike
+Evening bonfire
+Sunday brunch at the lakeside cafe
