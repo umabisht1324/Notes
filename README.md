@@ -25,13 +25,15 @@ Welcome to the **Notes Taking App**, a simple and intuitive app for managing you
 ```
 root/
 ├── views/             # EJS templates for rendering frontend
+│   ├── delete.ejs     # For deleting a File
+│   ├── edit.ejs       # For editing the File title
 │   ├── index.ejs      # Main page for notes
 │   ├── content.ejs    # Page to view individual notes
 ├── public/            # Static files (CSS, JS, etc.)
 │   ├── stylesheets/   # Tailwind CSS styles
 │   └── javascripts/   # JavaScript files
 ├── files/             # Folder to store notes as text files
-├── app.js             # Main server file
+├── index.js             # Main server file
 └── README.md          # Project documentation
 ```
 
@@ -39,12 +41,12 @@ root/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/notes-taking-app.git
+   git clone https://github.com/umabisht1324/notes.git
    ```
 
 2. Navigate to the project directory:
    ```bash
-   cd notes-taking-app
+   cd notes
    ```
 
 3. Install dependencies:
@@ -54,7 +56,7 @@ root/
 
 4. Start the server:
    ```bash
-   node app.js
+   node index.js
    ```
 
 5. Open the app in your browser:
