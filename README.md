@@ -72,9 +72,6 @@ root/
 - Implement search functionality.
 - Add filters to categorize tasks.
 
-## 📝 License
-
-This project is licensed under the ISC License. See the [LICENSE](LICENSE) file for more details.
 
 ---
 
